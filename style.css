@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.profile {
+  display: block;
+  border-radius: 50%;
+  border: 5px lightblue solid;
+  width: 400px;
+  margin: 0 auto 0 auto;
+}
+
+ul {
+  margin : auto;
+  width: 10%;
+}
+
+ol {
+  margin : auto;
+  width : 10%;
+}
+
+header {
+  background: whitesmoke;
+  margin : 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  font-family : Brush Script MT, Brush Script Std, cursive;
+  height : 150px
+}
+header h1 {
+  font-size : 300%
+}
+
+body {
+  background : linear-gradient( skyblue, lightblue);
+}
+
+article {
+  border : solid rgb(128, 201, 201) 3px;
+  border-radius: 10px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background : whitesmoke;
+  color : rgb(64, 64, 167);
+}
+
+img {
+  border-radius: 50%;
+}
+
+hr {
+  height: 30px;
+  width : 30px;
+  border : 3px solid rgb(60, 60, 206);
+  transform: rotate(45deg)
+}
+
+a:link {color : aqua;}
+a:visited {color : blueviolet;}
+a:hover {color : blue;}
+a:active {color : burlywood}
+
+footer > p {
+font-size: 20px;
+}
