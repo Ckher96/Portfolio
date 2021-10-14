@@ -1,8 +1,9 @@
+/*Changing everything into border-box*/
 * {
   box-sizing: border-box;
   text-align: center;
 }
-
+/*Stylizing my profile pic*/
 .profile {
   display: block;
   border-radius: 50%;
@@ -10,7 +11,7 @@
   width: 400px;
   margin: 0 auto 0 auto;
 }
-
+/*Styling list to be centered*/
 ul {
   margin : auto;
   width: 10%;
@@ -20,7 +21,7 @@ ol {
   margin : auto;
   width : 10%;
 }
-
+/*Making my header a little fancy*/
 header {
   background: whitesmoke;
   margin : 0;
@@ -29,14 +30,15 @@ header {
   font-family : Brush Script MT, Brush Script Std, cursive;
   height : 150px;
 }
+/*Making the h1 in my header bigger*/
 header h1 {
   font-size : 300%
 }
-
+/*giving my background a gradient*/
 body {
   background : linear-gradient( skyblue, lightblue);
 }
-
+/*Making articles stand out*/
 article {
   border : solid rgb(128, 201, 201) 3px;
   border-radius: 10px;
@@ -45,23 +47,23 @@ article {
   color : rgb(64, 64, 167);
   padding : 0 20px;
 }
-
+/*making images into circles*/
 img {
   border-radius: 50%;
 }
-
+/*making my horizontal rules into blue diamonds*/
 hr {
   height: 30px;
   width : 30px;
   border : 3px solid rgb(60, 60, 206);
   transform: rotate(45deg)
 }
-
+/*Making my links fancy*/
 a:link {color : green;}
 a:visited {color : blueviolet;}
 a:hover {color : blue;}
 a:active {color : burlywood}
-
+/*Wanted my footer to pop out a little more*/
 footer > p {
 font-size: 20px;
 }
