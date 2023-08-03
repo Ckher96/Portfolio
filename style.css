@@ -9,7 +9,7 @@
   border-radius: 50%;
   border: 5px lightblue solid;
   width: 400px;
-  margin: 0 auto 0 auto;
+  margin: 15px auto 15px auto;
 }
 /*Styling list to be centered*/
 ul {
@@ -36,7 +36,7 @@ header h1 {
 }
 /*giving my background a gradient*/
 body {
-  background : linear-gradient( skyblue, lightblue);
+  background : linear-gradient( rgb(51, 158, 200), lightblue);
 }
 /*Making articles stand out*/
 article {
@@ -50,6 +50,7 @@ article {
 /*making images into circles*/
 img {
   border-radius: 50%;
+  margin : 15px;
 }
 /*making my horizontal rules into blue diamonds*/
 hr {
