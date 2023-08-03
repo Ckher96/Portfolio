@@ -57,7 +57,8 @@ hr {
   height: 30px;
   width : 30px;
   border : 3px solid rgb(60, 60, 206);
-  transform: rotate(45deg)
+  transform: rotate(45deg);
+  margin : 15px auto;
 }
 /*Making my links fancy*/
 a:link {color : green;}
